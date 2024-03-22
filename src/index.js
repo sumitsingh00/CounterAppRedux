@@ -8,7 +8,8 @@ import { store } from "./redux/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <Provider store={store}>// Provider help us to connect the redux code with react code
+    // // Provider help us to connect the redux code with react code
+    <Provider store={store}>
         <App />
     </Provider>
 );

@@ -5,7 +5,8 @@ import { increment, decrement } from "../redux/slices/CounterSlice";
 export default function Counter() {
 
   // useselector helps us to use variables from slices of redux
-  const counter = useSelector((state) => state.counter.value);
+  // variable kin value lene ke liye, 
+  const counter = useSelector((state) => state.counter.initialvalue);
 
    // useselector helps us to use functions from slices of redux
   const dispatch = useDispatch();
